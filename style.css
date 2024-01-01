@@ -15,7 +15,7 @@ body {
     height: fit-content;
     text-align: center;
     max-width: 30rem;
-    flex-basis: 25rem;
+    flex: 1;
     padding: 1rem 2.5rem;
     border-radius: .7rem;
   }
@@ -63,5 +63,9 @@ body {
     height: auto;
     flex-direction: column;
     row-gap: 2rem;
+    }
+
+    .plan-button{
+      margin-bottom: 1rem;
     }
   }
